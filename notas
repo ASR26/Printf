@@ -1,0 +1,11 @@
+For ft_printf we'll need to get a variable ammount of arguments, for this reaso we'll use some functions which can do that, those are va_start, va_end, va_cpy and va_arg.
+We need to handle some conversions:
+-c (character)
+-s (string)
+-p (pointer)
+-d (digit)
+-i (integer)
+-u (unsigned int)
+-x (hexadecimal lowcase)
+-X (hexadecimal uppercase)
+-% (prints a percentsign)
